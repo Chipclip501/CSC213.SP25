@@ -37,7 +37,12 @@ public class SysDebugger {
         }
     }
 	public static void logCurrentDateTime() {
-		System.out.println("This is my Current Date Time");
+		LocalDateTime localDateTime1 = LocalDateTime.now();
+		System.out.println(" ");
+		System.out.println("=== Current Date & Time ===");
+		System.out.println(localDateTime1);
+		System.out.println("===========================");
+		System.out.println(" ");
     } 
 	
 	
